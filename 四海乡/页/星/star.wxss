@@ -1,0 +1,15 @@
+page,.box{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.img{
+  height: 100%;
+  width: 100%;
+}
+.btn{
+  width: 80px;
+  position: absolute;
+  bottom: 100px;
+  left: 22%;
+}
