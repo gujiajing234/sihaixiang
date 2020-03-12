@@ -1,0 +1,41 @@
+<!--pages/like/like.wxml-->
+<view class="box">
+  <view class="top">
+    <view class="top-left">
+      <image class="top-left-img" src="/img/18.png"></image>
+      <view class="top-left-text">已收藏{{num}}个餐宴</view>
+    </view>
+    <view class="top-right" bindtap="del">
+      <image class="top-right-img" src="/img/19.png"></image>
+      <view class="top-right-text">清空</view>
+    </view>
+  </view>
+
+  <!--单个元素-->
+  <view class="item" wx:if="{{num!=0}}" wx:for="{{list}}">
+    <view class="item-top">
+      <image class="item-top-img" src="{{item.imgUrl}}"></image>
+      <view class="hot">
+        <image class="fire" src="/img/17.png"></image>
+        <text class="fire-msg">{{item.hot}}</text>
+      </view>
+    </view>
+    <view class="item-bottom">
+      <view class="item-bottom-left">
+        <view class="item-bottom-left-name">{{item.banquestTitle}}</view>
+        <view class="item-bottom-left-price">￥{{item.price}}/桌</view>
+      </view>
+      <view class="item-bottom-right" bindtap="cancel" data-banquet-id="{{item.id}}" data-banquet-name="满汉全席">
+        <image class="item-bottom-right-img" src="/img/20.png"></image>
+        <view class="item-bottom-right-text">取消收藏</view>
+      </view>
+    </view>
+  </view>
+  
+  <view wx:if="{{num==0}}" class="nomore">
+    <image class="nomore-img" src="/img/21.png"></image>
+  </view>
+
+</view>
+
+

@@ -1,0 +1,106 @@
+/* pages/like/like.wxss */
+.box{
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.top-left{
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.top-left-img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.top-left-text{
+  font-size: 16px;
+}
+.top-right{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px; 
+}
+.top-right-img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.top-right-text{
+  font-size: 16px;
+  color: #ccc;
+}
+
+/*单个元素*/
+.item{
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  margin: 15px 0px;
+}
+.item-top{
+  position: relative;
+}
+.item-top-img{
+  height: 180px;
+  width: 100%;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px; 
+}
+.hot{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgba(160, 138, 138, 0.774);
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+.fire{
+  height: 14px;
+  width: 10px;
+}
+.fire-msg{
+  margin-left: 2px;
+  font-size: 13px;
+  color: white;
+}
+
+.item-bottom{
+  margin: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+.item-bottom-left-name{
+  font-weight: 600;
+}
+.item-bottom-left-price{
+  font-size: 14px;
+  color: red;
+}
+.item-bottom-right{
+  text-align: center;
+  color: #ccc;
+}
+.item-bottom-right-img{
+  height: 15px;
+  width: 15px;
+}
+.nomore{
+  margin: auto;
+  text-align: center;
+}
+.nomore-img{
+  width: 175px;
+  height: 175px;
+  margin-top: 150px;
+
+}
