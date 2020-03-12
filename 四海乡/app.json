@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/star/star",
+    "pages/main/main",
+    "pages/order/order",
+    "pages/like/like",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "四海香",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#BC8F8F",
+    "selectedColor": "#F4A460",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "img/footer1.png",
+        "selectedIconPath": "img/footer1-sel.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "心愿单",
+        "iconPath": "img/footer2.png",
+        "selectedIconPath": "img/footer2-sel.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "烹饪行程",
+        "iconPath": "img/footer3.png",
+        "selectedIconPath": "img/footer3-sel.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "img/footer4.png",
+        "selectedIconPath": "img/footer4-sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
