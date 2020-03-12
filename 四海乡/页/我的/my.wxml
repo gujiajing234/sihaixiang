@@ -1,0 +1,18 @@
+<!--pages/my/my.wxml-->
+<view class="top">
+  <view class="top-left">
+    <view class="nickname">{{nickname}}</view>
+    <view class="msg">欢迎您光临四海香！</view>
+  </view>
+  <image class="header" src='{{header}}'></image>
+</view>
+
+<view wx:for="{{navarr}}">
+<navigator class="bottom" url="{{item.url}}">
+  <view class="btm-left">
+    <image class="btm-img" src='{{item.icon}}'></image>
+    <text>{{item.text}}</text>
+  </view>
+  <view class="go"> > </view>
+</navigator>
+</view>

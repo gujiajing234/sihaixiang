@@ -1,0 +1,41 @@
+/* pages/my/my.wxss */
+.top{
+  width:96%;
+  margin: auto;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nickname{
+  font-size: 20px;
+  font-weight:600;
+}
+.msg{
+  margin: 10px 0px;
+  color: #ccc;
+  font-size: 18px;
+}
+.header{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.bottom{
+  width: 96%;
+  margin: auto;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #A0522D;
+}
+.btm-img{
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.go{
+  color: 	#B0C4DE;
+}
