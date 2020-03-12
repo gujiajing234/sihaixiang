@@ -1,0 +1,218 @@
+/* pages/main/main.wxss */
+/*轮播图*/
+.top{
+  width: 100%;
+  position: relative;
+}
+.top-swp{
+  height: 200px;
+  width: 100%;
+}
+.swp-img{
+  height: 200px;
+  width: 100%;
+}
+/*搜索框*/
+.top-search{
+  width: 90%;
+  height: 40px;
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 5%;
+  bottom: -20px;
+
+  background-color: white;
+
+  box-shadow: 5px 5px 10px #ccc; 
+}
+.sear-icon{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.sear-text{
+  font-size: 14px;
+}
+/*广告位*/
+.nav{
+  margin-top:50px;
+  width: 90%;
+  margin: 50px auto 0px auto;
+}
+.nav-top{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item-img{
+  height: 60px;
+  width: 60px;
+}
+.nav-item-name{
+  text-align: center;
+  font-size:12px; 
+}
+.nav-bottom{
+  height: auto;
+  width: 100%;
+  margin: 20px 0px;
+}
+.nav-banner{
+  width: 100%;
+  height: 160px;
+}
+.border-bottom{
+  border-bottom: 10px solid #eee;
+}
+/*名厨*/
+.cook{
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+.cook-top{
+  margin: 15px 0px;
+  text-align: center;
+}
+.cook-top-img{
+  height: 40px;
+  width:230px;
+}
+.cook-center{
+  display: flex;
+  justify-content: space-between;
+}
+.cook-item{
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #ccc; 
+  padding: 10px 0px;
+}
+/*头像*/
+.cook-header{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.cook-name{
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*星级*/
+.star{
+  width: 80%;
+  text-align: center;
+  height: 25px;
+  overflow: hidden;
+  margin: auto;
+}
+.star-img{
+  height: 169px;
+  width: 98%;
+  margin-top: -14px;
+}
+.star-img-0{
+  margin-top: -14px;
+}
+.star-img-1{
+  margin-top: -37px;
+}
+.star-img-2{
+  margin-top: -61px;
+}
+.star-img-3{
+  margin-top: -85px;
+}
+.star-img-4{
+  margin-top: -109px;
+}
+.star-img-5{
+  margin-top: -133px;
+}
+/*
+0  --  -14px
+1  --  -37px
+2  --  -61px
+3  --  -85px
+4  --  -109px
+5  --  -133px
+*/
+.cook-text{
+  text-align: center;
+  margin: 10px 0px;
+  color: #ccc;
+}
+
+/*餐宴*/
+.banquet-top{
+  margin: 15px 0px;
+  text-align: center;
+}
+.banquet-top-img{
+  height: 22px;
+  width:260px;
+}
+.banquet-center-view{
+  display: flex;
+  justify-content: space-between;
+}
+.banquet-item{
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+.banquet-item-img{
+  height: 80px;
+  width: 150px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.banquet-item-text{
+  margin-left: 5px;
+}
+.banquet-item-name{
+  font-weight: 600;
+}
+.banquet-item-price{
+  margin: 5px 0px;
+  color: red;
+}
+
+/*认证*/
+.nav-btm-top{
+  display: flex;
+}
+.nav-btm-top-item{
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+.nav-btm-top-item-img{
+  height: 40px;
+  width: 40px;
+}
+.nav-btm-top-item-text{
+  margin-left: 5px;
+}
+.nav-btm-top-item-name{
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav-btm-top-item-msg{
+  font-size: 10px;
+  color: #ccc;
+}
+.wirte-bottom{
+  border-bottom: 20px solid write;
+}
