@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<block wx:if="{{num!=0}}" wx:for="{{list}}">
+
+  <view class="border-bottom"></view>
+  <view class="item">
+    <view class="item-top">
+      <image class="clock" src="/img/22.png"></image>
+      <text class="top-text">{{item.time}} 名厨上门 </text>
+    </view>
+    <view class="item-bottom">
+      <image class="item-bottom-left" src="{{item.img}}"></image>
+      <view class="item-bottom-right">
+        <view class="name">{{item.name}}</view>
+        <view class="item-bottom-right-btm">
+          <view class="price">￥{{item.price}}/桌</view>
+          <navigator class="msg" url="/pages/logs/logs">评价</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>
+
+<view wx:if="{{num==0}}" class="nomore">
+    <image class="nomore-img" src="/img/23.png"></image>
+  </view>
